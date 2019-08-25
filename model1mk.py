@@ -131,7 +131,7 @@ valid_path= r"/raidb/makeev/marks/mass_vs_cyst/all_lesions/valid/"
 #------- finish retrieving data --------
 
 opt = SGD(lr=init_lr, momentum=0.9)
-#model = createmodel(opt)
+model = createmodel(opt)
 #------- finish creating model ---------
 
 #**** have to call find_lr.py and find the max_lr and init_lr if want to use optimal lr 
